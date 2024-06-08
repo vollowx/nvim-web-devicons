@@ -57,7 +57,7 @@ with an extension.
 Each icon must have the following (this is an example):
 ```lua
 [".gitconfig"] = {
-    icon = "",
+    icon = "󰒓",
     color = "#41535b",
     cterm_color = "0",
     name = "GitConfig",

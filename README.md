@@ -58,7 +58,7 @@ require'nvim-web-devicons'.setup {
  -- DevIcon will be appended to `name`
  override = {
   zsh = {
-    icon = "",
+    icon = "󰆍",
     color = "#428850",
     cterm_color = "65",
     name = "Zsh"
@@ -171,7 +171,7 @@ You can override individual icons with the `set_icon({...})` function:
 ```lua
 require("nvim-web-devicons").set_icon {
   zsh = {
-    icon = "",
+    icon = "󰆍",
     color = "#428850",
     cterm_color = "65",
     name = "Zsh"
@@ -182,7 +182,7 @@ require("nvim-web-devicons").set_icon {
 You can override the default icon with the `set_default_icon(icon, color, cterm_color)` function:
 
 ```lua
-require("nvim-web-devicons").set_default_icon('', '#6d8086', 65)
+require("nvim-web-devicons").set_default_icon('󰈔', '#6d8086', 65)
 ```
 
 ### Getting and setting icons by filetype
